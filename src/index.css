@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette Massothérapie Allyson : bordeaux/prune + papier crème (sa marque) */
+  --color-cream: #fbf7f4;
+  --color-shell: #f3eae6;
+  --color-blush: #e9d3da;
+  --color-rosewood: #96536a; /* ≥4.5:1 sur crème (texte des kickers) */
+  --color-plum: #5e1f35;
+  --color-plum-deep: #401325;
+  --color-ink: #2e1b23;
+  --color-ink-soft: #6b5560;
+  --color-field: #ffffff;
+
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-sans: "Figtree", "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-plum);
+  color: var(--color-cream);
+}
+
+/* Filet défilant (marquee) — pause si mouvement réduit */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 42s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
+
+/* Focus visible cohérent partout */
+:focus-visible {
+  outline: 2px solid var(--color-plum);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
