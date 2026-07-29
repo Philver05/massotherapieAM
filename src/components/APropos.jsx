@@ -26,7 +26,7 @@ export default function APropos() {
             />
             <div className="mt-4 max-w-xl space-y-4 text-[0.98rem] leading-relaxed text-ink-soft">
               <p>
-                Diplômée depuis 6 ans, Allyson est massothérapeute en{" "}
+                Diplômée depuis 2019, Allyson est massothérapeute en{" "}
                 <strong className="font-semibold text-ink">massage suédois</strong> et
                 kinésithérapeute spécialisée en{" "}
                 <strong className="font-semibold text-ink">approche sportive</strong>.

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  /* Palette Massothérapie Allyson : bordeaux/prune + papier crème (sa marque) */
+  /* Palette Massothérapie AM : bordeaux/prune + papier crème (sa marque) */
   --color-cream: #fbf7f4;
   --color-shell: #f3eae6;
   --color-blush: #e9d3da;

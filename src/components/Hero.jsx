@@ -47,7 +47,7 @@ export default function Hero() {
 
           <motion.p {...enter(0.16)} className="mt-5 max-w-xl text-[1.02rem] leading-relaxed text-ink-soft">
             Massages suédois et sportifs par <strong className="font-semibold text-ink">Allyson Marin</strong>,
-            massothérapeute et kinésithérapeute diplômée depuis 6 ans. Un petit local
+            massothérapeute et kinésithérapeute diplômée depuis 2019. Un petit local
             chaleureux au cœur de Matane, avec des reçus d'assurance remis pour
             chaque soin.
           </motion.p>
@@ -85,8 +85,8 @@ export default function Hero() {
             className="aspect-[4/5] w-full rounded-[2rem] rounded-tr-[5.5rem] border border-blush object-cover shadow-[0_24px_60px_-30px_rgba(94,31,53,0.45)]"
           />
           <div className="absolute -bottom-5 -left-3 rounded-2xl border border-blush bg-cream px-5 py-3.5 shadow-[0_16px_40px_-20px_rgba(94,31,53,0.4)] sm:-left-6">
-            <p className="font-display text-2xl font-medium text-plum">6 ans</p>
-            <p className="text-xs text-ink-soft">de pratique diplômée</p>
+            <p className="font-display text-2xl font-medium text-plum">Depuis 2019</p>
+            <p className="text-xs text-ink-soft">Massothérapeute diplômée</p>
           </div>
         </motion.div>
       </div>

@@ -1,6 +1,6 @@
 // ─── Coordonnées et liens officiels ──────────────────────────────
 export const BUSINESS = {
-  name: "Massothérapie Allyson",
+  name: "Massothérapie AM",
   therapist: "Allyson Marin",
   address: "315, rue Fournier, Matane (Québec) G4W 4G1",
   phone: "(418) 566-9275",

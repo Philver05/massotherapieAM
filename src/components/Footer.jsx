@@ -13,9 +13,7 @@ export default function Footer() {
                 alt="Logo Massothérapie AM"
                 className="h-11 w-11 rounded-full border border-cream/25 object-cover"
               />
-              <span>
-                Massothérapie <span className="italic">Allyson</span>
-              </span>
+              <span>Massothérapie AM</span>
             </p>
             <p className="mt-3 text-sm text-cream/70">{BUSINESS.address}</p>
             <a

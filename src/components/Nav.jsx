@@ -64,7 +64,7 @@ export default function Nav() {
               className="h-11 w-11 rounded-full border border-blush object-cover"
             />
             <span className="font-display text-lg font-medium leading-tight text-plum-deep">
-              Massothérapie <span className="italic">Allyson</span>
+              Massothérapie AM
             </span>
           </a>
 
