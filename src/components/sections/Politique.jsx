@@ -1,5 +1,5 @@
-import { POLITIQUE } from "../config.js";
-import { Reveal, SectionTitle } from "./ui.jsx";
+import { POLITIQUE } from "../../config.js";
+import { Reveal, SectionTitle } from "../ui";
 
 export default function Politique() {
   return (

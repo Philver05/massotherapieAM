@@ -1,6 +1,6 @@
 import { MapPin, Phone, Mail, CalendarClock } from "lucide-react";
-import { BUSINESS, LINKS } from "../config.js";
-import { Reveal, SectionTitle, BtnPrimary } from "./ui.jsx";
+import { BUSINESS, LINKS } from "../../config.js";
+import { Reveal, SectionTitle, BtnPrimary } from "../ui";
 
 const LIGNES = [
   {

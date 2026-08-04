@@ -1,6 +1,6 @@
 import { Star } from "lucide-react";
-import { AVIS, NOTE_GLOBALE, LINKS } from "../config.js";
-import { Reveal, SectionTitle, Butterfly, BtnPrimary, BtnGhost } from "./ui.jsx";
+import { AVIS, NOTE_GLOBALE, LINKS } from "../../config.js";
+import { Reveal, SectionTitle, Butterfly, BtnPrimary, BtnGhost } from "../ui";
 
 function Etoiles({ note, className = "" }) {
   return (

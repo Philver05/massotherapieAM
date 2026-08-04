@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { MapPin, Phone, Menu, X, Facebook, Instagram } from "lucide-react";
-import { BUSINESS, LINKS, PHOTOS } from "../config.js";
+import { BUSINESS, LINKS, PHOTOS } from "../../config.js";
 
 const ANCRES = [
   { href: "#tarifs", label: "Soins & tarifs" },

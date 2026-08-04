@@ -1,5 +1,5 @@
-import { PHOTOS } from "../config.js";
-import { Reveal, SectionTitle } from "./ui.jsx";
+import { PHOTOS } from "../../config.js";
+import { Reveal, SectionTitle } from "../ui";
 
 export default function APropos() {
   return (

@@ -1,5 +1,5 @@
 import { Instagram, Facebook } from "lucide-react";
-import { BUSINESS, LINKS, PHOTOS } from "../config.js";
+import { BUSINESS, LINKS, PHOTOS } from "../../config.js";
 
 export default function Footer() {
   return (

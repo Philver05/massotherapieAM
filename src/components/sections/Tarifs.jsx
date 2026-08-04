@@ -1,6 +1,6 @@
 import { BadgeCheck, CalendarCheck } from "lucide-react";
-import { TARIFS, LINKS } from "../config.js";
-import { Reveal, SectionTitle, BtnPrimary } from "./ui.jsx";
+import { TARIFS, LINKS } from "../../config.js";
+import { Reveal, SectionTitle, BtnPrimary } from "../ui";
 
 // Regroupe les lignes consécutives qui partagent le même "service"
 // (ex. les 5 durées de "Massage") pour n'afficher le nom qu'une fois,

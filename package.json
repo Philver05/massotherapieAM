@@ -1,7 +1,8 @@
 {
-  "name": "massotherapie-allyson",
+  "name": "massotherapie-am",
+  "description": "Site vitrine — Massothérapie AM (Allyson Marin, Matane QC)",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

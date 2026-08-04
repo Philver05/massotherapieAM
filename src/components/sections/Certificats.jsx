@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Gift, MessageCircle, Check, Copy, LoaderCircle } from "lucide-react";
-import { BUSINESS, LINKS, FORM_ENDPOINT, TARIFS } from "../config.js";
-import { Reveal, Butterfly } from "./ui.jsx";
+import { BUSINESS, LINKS, FORM_ENDPOINT, TARIFS } from "../../config.js";
+import { Reveal, Butterfly } from "../ui";
 
 const CHOIX_MONTANT = "montant";
 

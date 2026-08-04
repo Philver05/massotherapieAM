@@ -1,7 +1,7 @@
 import { motion, useReducedMotion } from "motion/react";
 import { BadgeCheck, Receipt, Star } from "lucide-react";
-import { LINKS, PHOTOS, NOTE_GLOBALE } from "../config.js";
-import { BtnPrimary, BtnGhost, Butterfly } from "./ui.jsx";
+import { LINKS, PHOTOS, NOTE_GLOBALE } from "../../config.js";
+import { BtnPrimary, BtnGhost, Butterfly } from "../ui";
 
 const MARQUEE = [
   "Massage suédois",
