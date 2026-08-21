@@ -65,3 +65,8 @@ body {
   outline-offset: 3px;
   border-radius: 2px;
 }
+
+/* Typographie fluide — H1 scale sans saut de breakpoint */
+.text-fluid-h1 {
+  font-size: clamp(1.9rem, 5vw + 0.8rem, 3.75rem);
+}

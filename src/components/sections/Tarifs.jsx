@@ -38,6 +38,7 @@ export default function Tarifs() {
 
         <div className="mt-7 grid gap-10 lg:grid-cols-[1fr_340px] lg:gap-14 lg:items-stretch">
           <Reveal delay={0.08}>
+            <div className="overflow-x-auto">
             <table className="w-full border-collapse text-left">
               <caption className="sr-only">
                 Tarifs des massages, taxes incluses, en vigueur depuis le 9 juin 2026
@@ -78,6 +79,7 @@ export default function Tarifs() {
                 ))}
               </tbody>
             </table>
+            </div>
           </Reveal>
 
           {/* Encadré réservation et assurances : même hauteur que le tableau */}

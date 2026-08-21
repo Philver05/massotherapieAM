@@ -38,7 +38,7 @@ export default function Hero() {
 
           <motion.h1
             {...enter(0.08)}
-            className="font-display text-[2.6rem] font-medium leading-[1.05] text-plum-deep sm:text-6xl"
+            className="font-display text-fluid-h1 font-medium leading-[1.05] text-plum-deep"
           >
             Prendre le temps
             <br />
@@ -82,6 +82,7 @@ export default function Hero() {
             alt="Massage suédois en cours, mains posées sur le dos d'une cliente détendue"
             width="1200"
             height="1800"
+            fetchPriority="high"
             className="aspect-[4/5] w-full rounded-[2rem] rounded-tr-[5.5rem] border border-blush object-cover shadow-[0_24px_60px_-30px_rgba(94,31,53,0.45)]"
           />
           <div className="absolute -bottom-5 -left-3 rounded-2xl border border-blush bg-cream px-5 py-3.5 shadow-[0_16px_40px_-20px_rgba(94,31,53,0.4)] sm:-left-6">

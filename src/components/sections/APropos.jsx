@@ -12,6 +12,7 @@ export default function APropos() {
               alt="Allyson Marin, massothérapeute, devant ses diplômes de l'Académie de Massage Scientifique"
               width="677"
               height="828"
+              loading="lazy"
               className="aspect-square w-full rounded-[2rem] rounded-bl-[5rem] border border-blush object-cover object-top shadow-[0_24px_60px_-30px_rgba(94,31,53,0.45)]"
             />
           </Reveal>
