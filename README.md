@@ -1,20 +1,23 @@
-# Massothérapie AM — Site vitrine
+# Massothérapie AM
 
-Site vitrine professionnel pour **Allyson Marin**, massothérapeute et kinésithérapeute à Matane (Québec).
+Site vitrine commandé par Allyson Marin, massothérapeute à Matane.
+J'ai géré tout le projet en solo : conception de l'architecture,
+développement des composants, déploiement.
 
-**[→ Voir le site en ligne](https://massotherapie-allyson.web.app)**
+**[Voir le site en ligne](https://massotherapie-allyson.web.app)**
 
 ---
 
-## Ce que j'ai construit
+## Ce que j'ai fait
 
-Site vitrine complet commandé par une cliente réelle : conception, développement, déploiement. Objectif principal — offrir une présence professionnelle simple à maintenir, sans que la cliente ait besoin de toucher au code.
+Allyson avait besoin d'une présence web professionnelle qu'elle puisse
+mettre à jour elle-même. J'ai centralisé toutes les données modifiables
+dans un seul fichier de configuration : tarifs, coordonnées, photos, liens.
+Elle change ce qu'elle veut sans toucher au code.
 
-**Décisions clés :**
-- Architecture en composants React pour isoler chaque section (Hero, Tarifs, Avis, Contact…)
-- Toutes les données éditables centralisées dans `src/config.js` — la cliente met à jour ses tarifs sans toucher au code
-- Animations d'entrée au scroll avec Motion pour un rendu premium sans surcharge
-- Formulaire sans backend via FormSubmit — zéro coût d'infrastructure
+Pour les animations, j'ai utilisé Motion pour les entrées au scroll.
+Pas d'effets pour le spectacle, juste ce qu'il faut pour que la page
+respire et donne une impression de soin.
 
 ---
 
@@ -22,12 +25,11 @@ Site vitrine complet commandé par une cliente réelle : conception, développem
 
 | Outil | Rôle |
 |---|---|
-| React 18 + Vite 6 | Framework UI + build rapide |
-| Tailwind CSS v4 | Styles utilitaires, responsive mobile-first |
+| React 18 + Vite 6 | Structure et build |
+| Tailwind CSS v4 | Styles responsive mobile-first |
 | Motion | Animations d'entrée au scroll |
-| Lucide React | Icônes SVG |
-| FormSubmit | Formulaire de contact sans backend |
-| Firebase Hosting | Déploiement continu |
+| FormSubmit | Formulaire sans backend |
+| Firebase Hosting | Déploiement |
 
 ---
 
@@ -38,10 +40,8 @@ src/
   components/
     layout/     Nav, Footer, BarreMobile
     sections/   Hero, Tarifs, Politique, Certificats, Avis, APropos, Contact
-    ui/         Reveal, SectionTitle, BtnPrimary (composants réutilisables)
-  config.js     Données centralisées (tarifs, coordonnées, photos, liens)
-  App.jsx
-  main.jsx
+    ui/         Composants réutilisables
+  config.js     Toutes les données éditables centralisées ici
 ```
 
 ---
@@ -53,8 +53,4 @@ npm install
 npm run dev
 ```
 
-→ http://localhost:5173
-
----
-
-Développé par Philippe Verlain — Matane, Québec
+Développé par Philippe Verlain
